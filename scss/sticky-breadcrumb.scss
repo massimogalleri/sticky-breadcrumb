@@ -1,0 +1,34 @@
+// vars
+
+$isPhone: 768px;
+$progress-desktop-height: 40px;
+$progress-mobile-height: 20px;
+$progress-color: rgba(#000000, .2);
+$bar-color: rgba(#000000, 1);
+
+// main selector
+
+#progress {
+
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: $progress-desktop-height;
+    background: $progress-color;
+    overflow: hidden;
+
+    @media (max-width: $isPhone) {
+        height: $progress-mobile-height;
+        transition: all .5s ease;
+    }
+
+    #bar {
+        height: 100%;
+        width: 0;
+        background: $bar-color;
+        transition: all .3 ease;
+    }
+
+}

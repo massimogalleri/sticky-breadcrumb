@@ -1,0 +1,20 @@
+{
+  "name": "sticky-breadcrumb",
+  "version": "1.0.0",
+  "description": "Minimal horizontal breadcrumb to track scroll amount.",
+  "main": "sticky-breadcrumb.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/massimogalleri/sticky-breadcrumb.git"
+  },
+  "author": "Massimo Galleri",
+  "license": "ISC",
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0"
+  }
+}
